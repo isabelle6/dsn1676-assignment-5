@@ -13,6 +13,10 @@ $form.on('submit', function (e) {
     $list.append($li);
     
     $form[0].reset();
+    
+    $delete.on('click', function () {
+        $li.remove();
+    });
 });
 
 $list.on('click', 'li', function () {
