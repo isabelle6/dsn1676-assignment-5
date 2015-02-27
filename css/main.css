@@ -17,6 +17,56 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: Times, serif;
+    margin: 0;
+}
+
+.centered-div {
+    margin: 0, auto;
+    border-radius: 20px;
+}
+
+.background {
+    background-color: #ccc;
+    margin: 2em;
+}
+
+.centered-text {
+    display: block;
+    text-align: center;
+}
+
+.label {
+    font-size: 1.75em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+
+.input {
+    padding-bottom: 1em;
+}
+
+.add {
+    background-color: #e6e6e6;
+    font-family: Times, serif;
+    font-size: 1em;
+    border: 1px solid #969696;
+    box-shadow: none;
+    padding: 0.5em 1.5em;
+}
+
+.chore {
+    font-size: 1em;
+    padding: 0.5em;
+    font-family: Times, serif;
+}
+
+.list {
+    margin: 0;
+    background-color: white;
+}
+
 .task-complete {
     text-decoration: line-through;
     color: #cccccc;
