@@ -14,3 +14,7 @@ $form.on('submit', function (e) {
     
     $form[0].reset();
 });
+
+$list.on('click', 'li', function () {
+    $(this).toggleClass('task-complete');
+});
