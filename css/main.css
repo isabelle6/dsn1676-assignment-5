@@ -44,7 +44,7 @@ body {
 }
 
 .chore-btn {
-    padding-bottom: 1em;
+    padding: 0 1em 1em 1em;
 }
 
 .btn-add {
@@ -55,6 +55,11 @@ body {
     border: none;
     box-shadow: none;
     padding: 0.5em 1.5em;
+}
+
+.btn-add:hover {
+    color: white;
+    background-color: #5d5d5d;
 }
 
 .chore {
@@ -85,6 +90,11 @@ body {
     float: right;
     border-radius: 6px;
     border: none;
+}
+
+.delete-button:hover {
+    color: white;
+    background-color: #5d5d5d;
 }
 
 .list-text {
