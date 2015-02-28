@@ -20,6 +20,7 @@ html {
 body {
     font-family: Times, serif;
     margin: 0;
+    background-color: #ccc;
 }
 
 .centered-div {
@@ -28,7 +29,7 @@ body {
 }
 
 .background {
-    background-color: #ccc;
+    background-color: #eee;
     margin: 2em;
 }
 
@@ -39,18 +40,18 @@ body {
 
 .label {
     font-size: 1.75em;
-    padding-top: 1em;
-    padding-bottom: 0em;
+    padding: 1em 0 0.5em 0;
 }
 
 .input {
     padding-bottom: 1em;
 }
 
-.add {
-    background-color: #e6e6e6;
+.btn-add {
+    background-color: #ccc;
     font-family: Times, serif;
     font-size: 1em;
+    border-radius: 6px;
     border: 1px solid #969696;
     box-shadow: none;
     padding: 0.5em 1.5em;
@@ -60,14 +61,42 @@ body {
     font-size: 1em;
     padding: 0.5em;
     font-family: Times, serif;
+    border-radius: 6px;
+    border: 1px solid #969696;
 }
 
 .list {
     margin: 0;
+    padding: 2em;
     background-color: white;
 }
 
+.list-item {
+    list-style: none;
+    font-size: 1.25em;
+    padding: 0;
+}
+
+.delete-button {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    float: right;
+}
+
+.list-text {
+    margin: 0;
+    font-size: 1em;
+    padding: 0.5em 0;
+    max-width: 15em;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 .task-complete {
+    color: #d6d6d6;
     text-decoration: line-through;
-    color: #cccccc;
+    text-decoration-color: red;
 }

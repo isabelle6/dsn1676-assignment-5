@@ -7,14 +7,19 @@ $form.on('submit', function (e) {
     
     var $li = $('<li>');
     var $choreP = $('<p>').html($chore.val());
-    var $delete = $('<button>X</button>');
+    var $del = $('<button>X</button>');
     
-    $li.append($choreP, $delete);
+    $li.append($choreP, $del);
     $list.append($li);
+    
+    $li.addClass('list-item');
+    $del.addClass('delete-button');
+    $choreP.addClass('list-text');
+    $choreP.add($del).addClass('inline-block');
     
     $form[0].reset();
     
-    $delete.on('click', function () {
+    $del.on('click', function () {
         $li.remove();
     });
 });
