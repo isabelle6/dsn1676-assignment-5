@@ -87,7 +87,6 @@ body {
     font-family: Arial, sans-serif;
     font-size: 1em;
     padding: 0.5em 1em;
-    float: right;
     border-radius: 6px;
     border: none;
     background-color: #c0c0c0;
@@ -98,15 +97,15 @@ body {
     background-color: #5d5d5d;
 }
 
+.inline {
+    display: inline;
+}
+
 .list-text {
     margin: 0;
     font-size: 1em;
     padding: 0.5em 0;
-    max-width: 15em;
-}
-
-.inline-block {
-    display: inline-block;
+    max-width: 10em;
 }
 
 .task-complete {

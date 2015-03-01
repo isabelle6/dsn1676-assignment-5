@@ -15,7 +15,7 @@ $form.on('submit', function (e) {
     $li.addClass('list-item');
     $del.addClass('delete-button');
     $choreP.addClass('list-text');
-    $choreP.add($del).addClass('inline-block');
+    $choreP.add($del).addClass('inline');
     
     $form[0].reset();
     
